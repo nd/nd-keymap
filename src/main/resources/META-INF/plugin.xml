@@ -1,0 +1,18 @@
+<idea-plugin>
+  <id>nd.keymap</id>
+  <name>Nd Keymap</name>
+  <vendor>me</vendor>
+  <category>Keymap</category>
+  <description>
+    My awesome keymap
+  </description>
+
+  <idea-version since-build="231"/>
+
+  <version>1</version>
+
+  <depends>com.intellij.modules.lang</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledKeymap file="nd.xml"/>
+  </extensions>
+</idea-plugin>
