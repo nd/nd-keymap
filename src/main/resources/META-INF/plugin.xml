@@ -1,6 +1,6 @@
 <idea-plugin>
   <id>nd.keymap</id>
-  <name>Nd Keymap</name>
+  <name>nd keymap</name>
   <vendor>me</vendor>
   <category>Keymap</category>
   <description>
@@ -9,7 +9,7 @@
 
   <idea-version since-build="231"/>
 
-  <version>1</version>
+  <version>2</version>
 
   <depends>com.intellij.modules.lang</depends>
   <extensions defaultExtensionNs="com.intellij">
