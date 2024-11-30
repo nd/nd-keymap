@@ -188,9 +188,6 @@
   <action id="EditorToggleStickySelection">
     <keyboard-shortcut first-keystroke="ctrl space" />
   </action>
-  <action id="EditorToggleUseSoftWraps">
-    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl t" />
-  </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl p" />
