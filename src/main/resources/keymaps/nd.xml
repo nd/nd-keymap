@@ -260,11 +260,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt v" />
     <keyboard-shortcut first-keystroke="ctrl meta v" />
   </action>
-  <action id="Jdbc.OpenEditor.DDL">
-    <keyboard-shortcut first-keystroke="meta period" />
-    <mouse-shortcut keystroke="control button1" />
-    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl b" />
-  </action>
   <action id="Maven.ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
