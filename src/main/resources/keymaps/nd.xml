@@ -314,9 +314,6 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
-  <action id="ReloadFromDisk">
-    <keyboard-shortcut first-keystroke="alt u" />
-  </action>
   <action id="RestoreDefaultLayout">
     <keyboard-shortcut first-keystroke="shift f12" />
     <keyboard-shortcut first-keystroke="shift end" />
