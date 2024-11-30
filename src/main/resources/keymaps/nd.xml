@@ -363,9 +363,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt y" />
     <keyboard-shortcut first-keystroke="ctrl meta y" />
   </action>
-  <action id="SynchronizeCurrentFile">
-    <keyboard-shortcut first-keystroke="alt u" />
-  </action>
   <action id="ToggleBookmark2">
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
   </action>
