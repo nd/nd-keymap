@@ -236,7 +236,6 @@
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="meta period" />
     <mouse-shortcut keystroke="control button1" />
-    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl b" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
