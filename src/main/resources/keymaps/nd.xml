@@ -93,10 +93,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt i" />
     <keyboard-shortcut first-keystroke="ctrl meta i" />
   </action>
-  <action id="Back">
-    <keyboard-shortcut first-keystroke="ctrl meta left" />
-    <keyboard-shortcut first-keystroke="ctrl meta j" />
-  </action>
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="alt k" />
   </action>
