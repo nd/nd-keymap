@@ -1,4 +1,62 @@
 <keymap version="1" name="nd" parent="Emacs">
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="shift alt f9" />
+    <keyboard-shortcut first-keystroke="shift meta f9" />
+  </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift alt f10" />
+    <keyboard-shortcut first-keystroke="shift meta f10" />
+  </action>
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f11" />
+  </action>
+  <action id="DebugToLine">
+    <keyboard-shortcut first-keystroke="alt f9" />
+    <keyboard-shortcut first-keystroke="meta f9" />
+  </action>
+  <action id="Docker.RemoteServers.StopComposeService">
+    <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
+  <action id="Docker.RemoteServers.StopContainer">
+    <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
+  <action id="RunDashboard.Stop">
+    <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="alt f8" />
+    <keyboard-shortcut first-keystroke="meta f8" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+    <keyboard-shortcut first-keystroke="ctrl end" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="meta f7" />
+  </action>
+  <action id="RestoreDefaultLayout">
+    <keyboard-shortcut first-keystroke="shift f12" />
+    <keyboard-shortcut first-keystroke="shift end" />
+  </action>
+  <action id="RunToolbarStopAction">
+    <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="alt f1" />
+    <keyboard-shortcut first-keystroke="meta f1" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift f2" />
+  </action>
+  <action id="SwitcherPreviousProblem">
+    <keyboard-shortcut first-keystroke="shift f2" />
+  </action>
+
+
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
@@ -50,16 +108,7 @@
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="alt k" />
   </action>
-  <action id="ChooseDebugConfiguration">
-    <keyboard-shortcut first-keystroke="shift alt f9" />
-    <keyboard-shortcut first-keystroke="shift meta f9" />
-  </action>
-  <action id="ChooseRunConfiguration">
-    <keyboard-shortcut first-keystroke="shift alt f10" />
-    <keyboard-shortcut first-keystroke="shift meta f10" />
-  </action>
   <action id="CloseContent">
-    <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
   </action>
   <action id="CloseProject">
@@ -74,12 +123,6 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
   </action>
-  <action id="DebugClass">
-    <keyboard-shortcut first-keystroke="shift ctrl f11" />
-  </action>
-  <action id="DebugToLine">
-    <keyboard-shortcut first-keystroke="alt f9" />
-  </action>
   <action id="Diff.FocusOppositePane">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="o" />
   </action>
@@ -92,14 +135,6 @@
   </action>
   <action id="Dir$OpenAction">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="d" />
-  </action>
-  <action id="Docker.RemoteServers.StopComposeService">
-    <keyboard-shortcut first-keystroke="ctrl f2" />
-    <keyboard-shortcut first-keystroke="shift f5" />
-  </action>
-  <action id="Docker.RemoteServers.StopContainer">
-    <keyboard-shortcut first-keystroke="ctrl f2" />
-    <keyboard-shortcut first-keystroke="shift f5" />
   </action>
   <action id="EditDirectoryAction">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="d" />
@@ -192,10 +227,6 @@
     <keyboard-shortcut first-keystroke="ctrl p" />
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
-  <action id="EvaluateExpression">
-    <keyboard-shortcut first-keystroke="alt f8" />
-    <keyboard-shortcut first-keystroke="meta f8" />
-  </action>
   <action id="Exit">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl c" />
   </action>
@@ -211,15 +242,6 @@
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="ctrl alt m" />
     <keyboard-shortcut first-keystroke="ctrl meta m" />
-  </action>
-  <action id="FileStructurePopup">
-    <keyboard-shortcut first-keystroke="ctrl f12" />
-    <keyboard-shortcut first-keystroke="ctrl end" />
-  </action>
-  <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="alt f7" />
-    <keyboard-shortcut first-keystroke="shift alt s" />
-    <keyboard-shortcut first-keystroke="meta f7" />
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl meta right" />
@@ -243,9 +265,6 @@
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="ctrl meta period" />
     <keyboard-shortcut first-keystroke="ctrl alt period" />
-  </action>
-  <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="shift f2" />
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="ctrl u" />
@@ -297,21 +316,6 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
-  <action id="RestoreDefaultLayout">
-    <keyboard-shortcut first-keystroke="shift f12" />
-    <keyboard-shortcut first-keystroke="shift end" />
-  </action>
-  <action id="RunDashboard.Stop">
-    <keyboard-shortcut first-keystroke="ctrl f2" />
-    <keyboard-shortcut first-keystroke="shift f5" />
-  </action>
-  <action id="RunToolbarStopAction">
-    <keyboard-shortcut first-keystroke="shift f5" />
-  </action>
-  <action id="SelectIn">
-    <keyboard-shortcut first-keystroke="alt f1" />
-    <keyboard-shortcut first-keystroke="meta f1" />
-  </action>
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="meta enter" />
@@ -319,10 +323,6 @@
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
     <keyboard-shortcut first-keystroke="ctrl meta s" />
-  </action>
-  <action id="Stop">
-    <keyboard-shortcut first-keystroke="ctrl f2" />
-    <keyboard-shortcut first-keystroke="shift f5" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
@@ -339,18 +339,12 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
-  <action id="SwitcherPreviousProblem">
-    <keyboard-shortcut first-keystroke="shift f2" />
-  </action>
   <action id="Synchronize">
     <keyboard-shortcut first-keystroke="ctrl alt y" />
     <keyboard-shortcut first-keystroke="ctrl meta y" />
   </action>
   <action id="ToggleBookmark2">
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
-  </action>
-  <action id="ToggleBreakpointEnabled">
-    <keyboard-shortcut first-keystroke="ctrl meta f8" />
   </action>
   <action id="TypeHierarchy">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl h" />
@@ -411,12 +405,6 @@
   </action>
   <action id="XViewInNewSplit">
     <keyboard-shortcut first-keystroke="shift alt o" />
-  </action>
-  <action id="android.deploy.ApplyChanges">
-    <keyboard-shortcut first-keystroke="ctrl f10" />
-  </action>
-  <action id="android.deploy.CodeSwap">
-    <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
 
 
