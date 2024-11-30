@@ -285,10 +285,6 @@
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="o" />
   </action>
-  <action id="NextTab">
-    <keyboard-shortcut first-keystroke="alt right" />
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="n" />
-  </action>
   <action id="OpenParentDirectory">
     <keyboard-shortcut first-keystroke="shift circumflex" />
   </action>
@@ -447,6 +443,7 @@
   </action>
 
 
+  <action id="NextTab" />
   <action id="ActivateServicesToolWindow" />
   <action id="CallHierarchy" />
   <action id="CallHierarchy.BaseOnThisType" />
