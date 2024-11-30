@@ -9,7 +9,7 @@
 
   <idea-version since-build="231"/>
 
-  <version>8</version>
+  <version>9</version>
 
   <depends>com.intellij.modules.lang</depends>
   <extensions defaultExtensionNs="com.intellij">
