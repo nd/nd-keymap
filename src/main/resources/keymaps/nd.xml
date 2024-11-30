@@ -252,9 +252,6 @@
     <keyboard-shortcut first-keystroke="ctrl u" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="u" />
   </action>
-  <action id="Images.Editor.ZoomIn">
-    <keyboard-shortcut first-keystroke="ctrl add" />
-  </action>
   <action id="Inline">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
     <keyboard-shortcut first-keystroke="ctrl meta n" />
