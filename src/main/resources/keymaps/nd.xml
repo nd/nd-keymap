@@ -93,9 +93,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt i" />
     <keyboard-shortcut first-keystroke="ctrl meta i" />
   </action>
-  <action id="CheckinProject">
-    <keyboard-shortcut first-keystroke="alt k" />
-  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
   </action>
