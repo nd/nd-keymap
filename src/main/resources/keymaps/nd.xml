@@ -75,10 +75,6 @@
     <keyboard-shortcut first-keystroke="alt semicolon" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
   </action>
-  <action id="CopyPaths">
-    <keyboard-shortcut first-keystroke="shift ctrl c" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
-  </action>
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="shift ctrl f11" />
   </action>
