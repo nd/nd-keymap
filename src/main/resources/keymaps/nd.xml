@@ -72,7 +72,6 @@
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
   <action id="CommentByLineComment">
-    <keyboard-shortcut first-keystroke="alt semicolon" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
   </action>
   <action id="DebugClass">
