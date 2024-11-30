@@ -227,21 +227,21 @@
     <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="EditorKillRingSave">
-    <keyboard-shortcut first-keystroke="alt w" />
-    <keyboard-shortcut first-keystroke="meta w" />
+    <keyboard-shortcut first-keystroke="ctrl alt w" />
+    <keyboard-shortcut first-keystroke="ctrl meta w" />
   </action>
   <action id="PasteMultiple">
-    <keyboard-shortcut first-keystroke="alt y" />
-    <keyboard-shortcut first-keystroke="meta y" />
+    <keyboard-shortcut first-keystroke="ctrl alt y" />
+    <keyboard-shortcut first-keystroke="ctrl meta y" />
   </action>
   <action id="EditorKillToWordEnd">
-    <keyboard-shortcut first-keystroke="alt d" />
-    <keyboard-shortcut first-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+    <keyboard-shortcut first-keystroke="ctrl meta d" />
   </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl right" />
-    <keyboard-shortcut first-keystroke="alt f" />
-    <keyboard-shortcut first-keystroke="meta f" />
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+    <keyboard-shortcut first-keystroke="ctrl meta f" />
   </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
@@ -255,8 +255,8 @@
   </action>
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="ctrl left" />
-    <keyboard-shortcut first-keystroke="alt b" />
-    <keyboard-shortcut first-keystroke="meta b" />
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+    <keyboard-shortcut first-keystroke="ctrl meta b" />
   </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="shift alt period" />
