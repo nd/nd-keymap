@@ -28,7 +28,6 @@
     <keyboard-shortcut first-keystroke="alt 4" />
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
-  <action id="ActivateServicesToolWindow" />
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="meta 9" />
   </action>
@@ -48,11 +47,6 @@
     <keyboard-shortcut first-keystroke="ctrl meta left" />
     <keyboard-shortcut first-keystroke="ctrl meta j" />
   </action>
-  <action id="CallHierarchy" />
-  <action id="CallHierarchy.BaseOnThisType" />
-  <action id="ChangesView.Revert" />
-  <action id="ChangesView.ShelveSilently" />
-  <action id="ChangesView.UnshelveSilently" />
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="alt k" />
   </action>
@@ -64,8 +58,6 @@
     <keyboard-shortcut first-keystroke="shift alt f10" />
     <keyboard-shortcut first-keystroke="shift meta f10" />
   </action>
-  <action id="CloseAllEditors" />
-  <action id="CloseAllEditorsButActive" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
@@ -79,31 +71,20 @@
     <keyboard-shortcut first-keystroke="meta space" />
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
-  <action id="CollapseSelection" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="alt semicolon" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
   </action>
-  <action id="CompareTwoFiles" />
-  <action id="CompileDirty" />
-  <action id="Console.Jdbc.Execute" />
-  <action id="Console.Jpa.Execute" />
-  <action id="Console.TableResult.DeleteRows" />
-  <action id="Console.TableResult.SetNull" />
-  <action id="ContextHelp" />
   <action id="CopyPaths">
     <keyboard-shortcut first-keystroke="shift ctrl c" />
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
-  <action id="CopyReference" />
-  <action id="DatabaseView.CopyAction" />
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="shift ctrl f11" />
   </action>
   <action id="DebugToLine">
     <keyboard-shortcut first-keystroke="alt f9" />
   </action>
-  <action id="DecrementWindowHeight" />
   <action id="Diff.FocusOppositePane">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="o" />
   </action>
@@ -125,8 +106,6 @@
     <keyboard-shortcut first-keystroke="ctrl f2" />
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
-  <action id="DuplicatesForm.SendToLeft" />
-  <action id="DuplicatesForm.SendToRight" />
   <action id="EditDirectoryAction">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="d" />
   </action>
@@ -135,9 +114,6 @@
     <keyboard-shortcut first-keystroke="shift back_space" />
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
-  <action id="EditorBackwardParagraphWithSelection" />
-  <action id="EditorChooseLookupItemAlways" />
-  <action id="EditorChooseLookupItemDot" />
   <action id="EditorCopy">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
@@ -150,12 +126,10 @@
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
-  <action id="EditorDuplicate" />
   <action id="EditorEscape">
     <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
-  <action id="EditorForwardParagraphWithSelection" />
   <action id="EditorKillRingSave">
     <keyboard-shortcut first-keystroke="alt w" />
     <keyboard-shortcut first-keystroke="meta w" />
@@ -169,7 +143,6 @@
     <keyboard-shortcut first-keystroke="ctrl meta h" />
     <keyboard-shortcut first-keystroke="ctrl alt h" />
   </action>
-  <action id="EditorLineEndWithSelection" />
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="shift ctrl m" />
     <keyboard-shortcut first-keystroke="ctrl meta f" />
@@ -240,7 +213,6 @@
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
-  <action id="ExportToTextFile" />
   <action id="ExternalSystem.ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
@@ -248,9 +220,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt m" />
     <keyboard-shortcut first-keystroke="ctrl meta m" />
   </action>
-  <action id="FileChooser.GotoHome" />
-  <action id="FileChooser.GotoModule" />
-  <action id="FileChooser.GotoProject" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl f12" />
     <keyboard-shortcut first-keystroke="ctrl end" />
@@ -260,7 +229,6 @@
     <keyboard-shortcut first-keystroke="shift alt s" />
     <keyboard-shortcut first-keystroke="meta f7" />
   </action>
-  <action id="FocusTracer" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl meta right" />
     <keyboard-shortcut first-keystroke="ctrl meta k" />
@@ -269,12 +237,10 @@
     <keyboard-shortcut first-keystroke="meta i" />
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
-  <action id="Git.Commit.And.Push.Executor" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="alt x" />
     <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
-  <action id="GotoCustomRegion" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="meta period" />
     <mouse-shortcut keystroke="control button1" />
@@ -295,19 +261,13 @@
     <keyboard-shortcut first-keystroke="ctrl u" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="u" />
   </action>
-  <action id="Graph.ApplyCurrentLayout" />
-  <action id="Groovy.Shell.Execute" />
-  <action id="GuiDesigner.Duplicate" />
-  <action id="Hg.Commit.And.Push.Executor" />
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
-  <action id="IncrementWindowHeight" />
   <action id="Inline">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
     <keyboard-shortcut first-keystroke="ctrl meta n" />
   </action>
-  <action id="IntroduceParameter" />
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="ctrl alt v" />
     <keyboard-shortcut first-keystroke="ctrl meta v" />
@@ -362,9 +322,6 @@
   <action id="ReloadFromDisk">
     <keyboard-shortcut first-keystroke="alt u" />
   </action>
-  <action id="ResetColumnsWidth" />
-  <action id="ResizeToolWindowDown" />
-  <action id="ResizeToolWindowUp" />
   <action id="RestoreDefaultLayout">
     <keyboard-shortcut first-keystroke="shift f12" />
     <keyboard-shortcut first-keystroke="shift end" />
@@ -388,14 +345,10 @@
     <keyboard-shortcut first-keystroke="ctrl alt s" />
     <keyboard-shortcut first-keystroke="ctrl meta s" />
   </action>
-  <action id="ShowUmlDiagramPopup" />
-  <action id="SplitHorizontally" />
-  <action id="SplitVertically" />
   <action id="Stop">
     <keyboard-shortcut first-keystroke="ctrl f2" />
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
-  <action id="SurroundWithLiveTemplate" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
@@ -411,7 +364,6 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
-  <action id="Switcher" />
   <action id="SwitcherPreviousProblem">
     <keyboard-shortcut first-keystroke="shift f2" />
   </action>
@@ -431,9 +383,6 @@
   <action id="TypeHierarchy">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl h" />
   </action>
-  <action id="UpdateRunningApplication" />
-  <action id="Vcs.Log.FocusTextFilter" />
-  <action id="Vcs.RollbackChangedLines" />
   <action id="Vcs.Show.Local.Changes">
     <keyboard-shortcut first-keystroke="alt 9" />
   </action>
@@ -448,7 +397,6 @@
     <keyboard-shortcut first-keystroke="meta p" />
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
-  <action id="ViewSource" />
   <action id="XBack">
     <keyboard-shortcut first-keystroke="ctrl alt j" />
     <mouse-shortcut keystroke="button4" />
@@ -498,6 +446,60 @@
   <action id="android.deploy.CodeSwap">
     <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
+
+
+  <action id="ActivateServicesToolWindow" />
+  <action id="CallHierarchy" />
+  <action id="CallHierarchy.BaseOnThisType" />
+  <action id="ChangesView.Revert" />
+  <action id="ChangesView.ShelveSilently" />
+  <action id="ChangesView.UnshelveSilently" />
+  <action id="CloseAllEditors" />
+  <action id="CloseAllEditorsButActive" />
+  <action id="CollapseSelection" />
+  <action id="CompareTwoFiles" />
+  <action id="CompileDirty" />
+  <action id="Console.Jdbc.Execute" />
+  <action id="Console.Jpa.Execute" />
+  <action id="Console.TableResult.DeleteRows" />
+  <action id="Console.TableResult.SetNull" />
+  <action id="ContextHelp" />
+  <action id="CopyReference" />
+  <action id="DatabaseView.CopyAction" />
+  <action id="DecrementWindowHeight" />
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="EditorBackwardParagraphWithSelection" />
+  <action id="EditorChooseLookupItemAlways" />
+  <action id="EditorChooseLookupItemDot" />
+  <action id="EditorDuplicate" />
+  <action id="EditorForwardParagraphWithSelection" />
+  <action id="EditorLineEndWithSelection" />
+  <action id="ExportToTextFile" />
+  <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.GotoProject" />
+  <action id="FocusTracer" />
+  <action id="Git.Commit.And.Push.Executor" />
+  <action id="GotoCustomRegion" />
+  <action id="Graph.ApplyCurrentLayout" />
+  <action id="Groovy.Shell.Execute" />
+  <action id="GuiDesigner.Duplicate" />
+  <action id="Hg.Commit.And.Push.Executor" />
+  <action id="IncrementWindowHeight" />
+  <action id="IntroduceParameter" />
+  <action id="ResetColumnsWidth" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
+  <action id="ShowUmlDiagramPopup" />
+  <action id="SplitHorizontally" />
+  <action id="SplitVertically" />
+  <action id="SurroundWithLiveTemplate" />
+  <action id="Switcher" />
+  <action id="UpdateRunningApplication" />
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.RollbackChangedLines" />
+  <action id="ViewSource" />
   <action id="grammar.LivePreview" />
   <action id="tasks.goto" />
 </keymap>
