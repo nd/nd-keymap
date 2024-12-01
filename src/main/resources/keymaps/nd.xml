@@ -56,7 +56,6 @@
     <keyboard-shortcut first-keystroke="shift f2" />
   </action>
 
-
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1" />
     <keyboard-shortcut first-keystroke="meta 1" />
@@ -336,7 +335,7 @@
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl b" />
   </action>
 
-
+  <!--disabled actions-->
   <action id="ActivateServicesToolWindow" />
   <action id="CallHierarchy" />
   <action id="CallHierarchy.BaseOnThisType" />
