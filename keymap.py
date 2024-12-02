@@ -55,15 +55,20 @@ def main():
 
         # join gold disabled - updated enabled and updated disabled and print them
         all_disabled = []
+        all_disabled_ids = set()
         for action in gold_disabled_actions:
-            if action.attrib['id'] not in printed_ids:
+            action_id = action.attrib['id']
+            if action_id not in printed_ids and action_id not in all_disabled_ids:
                 all_disabled.append(action)
+                all_disabled_ids.add(action_id)
         for action in updated_disabled_actions:
-            if action.attrib['id'] not in printed_ids:
+            action_id = action.attrib['id']
+            if action_id not in printed_ids and action_id not in all_disabled_ids:
                 all_disabled.append(action)
+                all_disabled_ids.add(action_id)
 
         all_disabled.sort(key=lambda x: x.attrib['id'])
-        print("\n  <!-- disabled actions: -->")
+        print("\n  <!-- disabled actions -->")
         for o in all_disabled:
             print("  %s" % ET.tostring(o, encoding='unicode').rstrip(' \n'))
 
@@ -82,12 +87,12 @@ def main():
 
         # added enabled actions
         if updated_enabled_actions:
-            print("\n  <!-- added actions: -->")
+            print("\n  <!-- added actions -->")
             for o in updated_enabled_actions.values():
                 print("  %s" % ET.tostring(o, encoding='unicode').rstrip(' \n'))
 
         updated_disabled_actions.sort(key=lambda x: x.attrib['id'])
-        print("\n  <!-- disabled actions: -->")
+        print("\n  <!-- disabled actions -->")
         for o in updated_disabled_actions:
             print("  %s" % ET.tostring(o, encoding='unicode').rstrip(' \n'))
 
