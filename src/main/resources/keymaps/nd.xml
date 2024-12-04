@@ -83,12 +83,15 @@
 
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="meta c" />
   </action>
   <action id="EditorCopy">
     <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="meta c" />
   </action>
   <action id="QuickDocCopy">
     <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="meta c" />
   </action>
 
   <action id="ExtractMethod">
