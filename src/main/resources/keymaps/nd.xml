@@ -127,7 +127,7 @@
     <keyboard-shortcut first-keystroke="ctrl meta period" />
   </action>
   <action id="XOpenInNewSplit">
-    <keyboard-shortcut first-keystroke="ctrl o" />
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
   <action id="XViewInNewSplit">
     <keyboard-shortcut first-keystroke="ctrl alt o" />
