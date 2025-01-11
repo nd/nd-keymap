@@ -1,0 +1,11 @@
+- create copy and modify keymap in idea settings
+- run `python keymap.py <pato to the modified keymap> /path/to/src/main/resources/keymaps/nd.xml > updated.xml`
+- run ediff updated.xml src/main/resources/keymaps/nd.xml and apply the changes
+- bump version in src/main/resources/META-INF/plugin.xml
+- commit
+- create a tag (vNext)
+- push commit and the tag
+- run the buildPlugin gradle task
+- publish new release based on the vNext tag with binary build/distributions/nd-keymap.zip
+- bump versions in https://github.com/nd/ij-plugin-repo/blob/master/plugins.xml
+- restart Idea to detect a new plugin version
