@@ -365,6 +365,7 @@
   <action id="ChangesView.Revert" />
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
+  <action id="CheckinProject" />
   <action id="CloseAllEditors" />
   <action id="CloseAllEditorsButActive" />
   <action id="CollapseSelection" />
