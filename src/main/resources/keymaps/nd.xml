@@ -381,6 +381,7 @@
   <action id="DecrementWindowHeight" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditSourceInNewWindow" />
   <action id="EditorBackwardParagraphWithSelection" />
   <action id="EditorChooseLookupItemAlways" />
   <action id="EditorChooseLookupItemDot" />

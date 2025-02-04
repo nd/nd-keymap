@@ -1,5 +1,6 @@
 - create copy and modify keymap in idea settings
-- run `python keymap.py <pato to the modified keymap> /path/to/src/main/resources/keymaps/nd.xml > updated.xml`
+- exit IDE, so that is saves the changes on disk :/
+- run `python keymap.py /path/to/src/main/resources/keymaps/nd.xml <pato to the modified keymap> > updated.xml`
 - run ediff updated.xml src/main/resources/keymaps/nd.xml and apply the changes
 - bump version in src/main/resources/META-INF/plugin.xml
 - commit
